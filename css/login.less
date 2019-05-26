@@ -1,0 +1,84 @@
+body {
+	background:
+	linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+	linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+	linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+	linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+	linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+	linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	background-color: #131313;
+	background-size: 20px 20px;
+	padding: 1em;
+	font: 1em Helvetica, Arial;
+	height: 100%;
+	margin: 0;
+	color: #fff;
+	text-align: center;
+
+	div.bg {
+		background-color: rgba(0, 0, 0, 0.5);
+	}
+
+	hr.login {
+		padding: 2em;
+	}
+}
+
+section.content {
+	padding: 1em;
+	margin: 0;
+
+	p {
+		text-align: center;
+	}
+
+	a:hover {
+		color: rgba(255, 255, 255, 0.5);
+		text-decoration: underline;
+	}
+}
+
+section.form {
+	padding: 1em;
+	margin: 0;
+	text-align: center;
+
+	p {
+		text-align: center;
+
+		small {
+			font-size: .7em;
+		}
+	}
+
+	form {
+		input.email {
+			background-color: rgba(255, 255, 255, 0.15);
+			border: none;
+			padding: 1em 2em 1em 2em;
+			margin: 0;
+			font-size: 1em;
+			text-align: center;
+			color: #fff;
+
+			&:hover {
+				background-color: rgba(255, 255, 255, 0.5);
+			}
+		}
+
+		input.send {
+			background-color: rgba(255, 255, 255, 0.75);
+			border: none;
+			padding: 1em;
+			margin: 1em;
+			text-align: center;
+			color: #111;
+
+			&:hover {
+				cursor: pointer;
+				background-color: rgba(255, 255, 255, 0.5);
+				color: #fff;
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+#capaSuperior{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+
+#simplegallery1 {
+    top: 26px;
+    left: 13px;
+}
+
+p.f {
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.navpanelfg {
+    display: none;
+}
+
+a#mail:link {
+	color: yellow;
+	text-decoration:underline;
+}
+a#mail:visited {
+	color: white;
+	text-decoration:none;
+}

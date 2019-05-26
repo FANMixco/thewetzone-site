@@ -1,0 +1,14 @@
+img{
+	height:609px;
+	width:365px;
+}
+
+.fotorama__caption {
+    opacity: 0.85;
+    width: 100%;
+    background-color: #fff;
+}
+
+#divPhone{
+	background-image: url(../img/wpFormat.png); background-repeat: no-repeat; background-size: 421px 759px;
+}

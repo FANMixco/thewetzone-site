@@ -1,0 +1,186 @@
+//BÁSICO
+body {
+	background:
+	linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+	linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+	linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+	linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+	linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+	linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	background-color: #131313;
+	background-size: 20px 20px;
+	font: 1em Helvetica, Arial;
+	color: #efefef;
+	text-align: center;
+	margin: 0;
+	
+	h1 {
+		font-size: 3em;
+		padding-top: 1em;
+	}
+
+	h2 {
+		font-size: 2.5em;
+		padding: 1em;
+	}
+
+	h3 {
+		font-size: 1.5em;
+		padding: 1em;
+	}
+
+	p {
+		font-size: 1em;
+		padding: 1em;
+		text-align: justify;
+	}
+
+	a {
+		color: #efefef;
+		text-decoration: none;
+	}
+
+	a.download {
+		padding: 1em;
+		text-decoration: underline;
+
+		&#wp:hover {
+			color: #d1111c;
+		}
+
+		&#adr:hover {
+			color: #93c92b;
+		}
+
+		&#fb {
+			text-decoration: none;
+		}
+
+		&#fb:hover {
+			color: #3B5998;
+		}
+
+		&#mso:hover {
+			color: #1570A6;
+		}
+	}
+}
+
+hr {
+	border: 0;
+	padding: .1em;
+	text-align: center;
+}
+
+//NAV
+nav {
+	background: #2d2d2d;
+	box-shadow: #111 0 0 1em;
+	
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		
+		li {
+			display: inline-block;
+			
+			a {
+				display: block;
+				color: #efefef;
+				padding: 1em 1em;
+				text-transform: uppercase;
+
+				&:hover {
+					background: #111;
+				}
+			}
+		}
+	}
+}
+
+//HEADER
+header {
+	padding-top: 5em;
+}
+
+//FOOTER
+footer {
+	background: #2d2d2d;
+
+	p {
+		font-size: .8em;
+		text-align: center;
+	}
+}
+
+//NAV MÓVIL
+#boton-menu-movil {
+	background: url(../img/nav_menu_icon.png)
+	no-repeat center center;
+	display: none;
+	position: relative;
+	margin: .3em;
+}
+
+//CONTENIDO
+section.content {
+	margin: 2%;
+	text-align: center;
+}
+
+//IMGS
+figure.phone {
+	margin: 0 auto;
+	height: 360px;
+	width: 200px;
+
+	img {
+		width: 100&;
+		height: 100%;
+	}
+}
+
+//IFRAMES
+iframe.map {
+	width: 95%;
+	height: 625px;
+}
+
+//IFRAMES
+iframe.tutorial {
+	width: 470px;
+	height: 780px;
+}
+
+//RESPONSIVE
+@media screen and (max-width: 35em) {
+
+	#boton-menu-movil {
+		display: inline-block;
+		width: 3em;
+		height: 3em;
+	}
+
+	iframe {
+		width: 250px;
+		height: 400px;
+	}
+
+	nav {
+		ul {
+			display: none; /*ocultamos el menu*/
+			text-align: left;
+					
+			li {
+				background: #111;
+				display: block;
+
+				&:first-child {
+					border-top: solid #111 1px;
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="img/ico.ico" />
+	<link rel="stylesheet" type="text/css" href="css/lemonade.css">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+	<script src="js/web/jquery.js"></script>
+    
+    <script src="js/web/main.js"></script>
+    <script src="js/web/less.js"></script>
+    <script src="js/simplegallery.js"></script>
+    <script src="js/capitalize.js"></script>
+
+    <script src="js/getLanguage.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/getYear.js"></script>
+    
+    <link rel="stylesheet" href="css/index.css">
+	<title>The Wet Zone</title>
+
+</head>
+<body>
+    <a href="https://github.com/FANMixco/TheWetZone" target="_blank">><img style="position: absolute; top: 0; right: 0; border: 0; width: 149px; height: 149px; z-index: 10;" src="http://aral.github.com/fork-me-on-github-retina-ribbons/right-red@2x.png" alt="Fork me on GitHub"></a>
+	<div id="capaSuperior">
+		<nav>
+			<div id="boton-menu-movil"></div>
+			<ul>
+				<li><a href="#" id="menuHome"></a></li>
+				<li><a href="#description" id="menuDescription"></a></li>
+				<li><a href="#map" id="menuPath"></a></li>
+				<!--li><a href="#danger"><i class="fa fa-warning"></i> Zonas</a></li-->
+				<li><a href="#download" id="menuDownload"></a></li>
+				<li><a href="tutorial.html" id="menuTutorial"></a></li>
+				<li><a href="login.html" id="menuLogin"></a></li>
+			</ul>
+		</nav>
+	</div>
+	<header>
+		<h1><i class="fa fa-compass"></i>  The Wet Zone</h1>
+	</header>
+<!--DESCRIPCIÓN-->
+	<section class="content" id="description">
+		<div class="frame">
+			<div class="box-o">
+				<h2 id="titleDescription"></h2>
+			</div>
+			<div class="bit-30">
+				<div class="box">
+					<figure class="phone">
+                        <div style="background-image: url(img/thumbs/wpFormat.png); height: 360px;">
+                            <div id="simplegallery1"></div>
+                        </div>
+					</figure>
+				</div>
+			</div>
+			<div class="bit-65">
+				<div class="box">
+					<p style="text-align:center; font-weight: bold">
+						<span style="font-size:large;" id="titleMainDescription"></span>
+						<br />
+						<span id="lblAnswer"></span>
+					</p>
+					<p id="lblData1"></p>
+					<p id="lblData2"></p>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--MAPA CAMINOS-->
+	<section class="content" id="map">
+		<div class="frame">
+			<div class="box-o">
+				<h2 id="titlePath"></h2>
+			</div>
+			<div class="bit-1">
+				<div class="box">
+					<iframe class="map" src="mapBeta1.html" frameborder="0"></iframe>
+					<hr>
+					<a href="mapBeta1.html" target="_blank" id="lblFullMap"></a>				
+				</div>
+			</div>
+		</div>
+	</section>
+<!--MAPA ZONAS-->
+	<!--section class="content" id="danger">
+		<div class="frame">
+			<div class="box-o">
+				<h2><i class="fa fa-warning"></i> Nuevas Zonas De Peligro</h2>
+			</div>
+			<div class="bit-1">
+				<div class="box">
+					<iframe class="map" src="http://thewetzone.pixub.com/site/mapSOSBeta1.html" frameborder="0"></iframe>
+				</div>
+			</div>
+		</div>
+	</section-->
+<!--DESCARGA-->
+	<section class="content" id="download">
+		<div class="frame">
+			<div class="box-o">
+				<h2 id="titleDownload"></h2>
+			</div>
+			<div class="bit-1">
+				<div class="box">
+					<a class="download" id="wp" href="#"><i class="fa fa-windows fa-3x"></i></a>
+					<a class="download" id="adr" href="#"><i class="fa fa-android fa-3x"></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="frame">
+			<div class="bit-3">
+				<p><span id="lblMore"></span><a href="mailto:thewetzone@outlook.com" target="_blank" class="download" id="mso">thewetzone@outlook.com</a></p>
+			</div>
+			<div class="bit-3">
+				<p><a href="http://fb.com/TheWetZoneSV" target="_blank" class="download" id="fb"><i class="fa fa-facebook-square"></i> <span id="lblFollow"></span></a></p>
+			</div>
+			<div class="bit-3">
+				<p>&copy; 2013 &mdash; <script>document.write(year)</script> The Wet Zone</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
