@@ -5,7 +5,7 @@ function getLanguage()
 	var language = window.navigator.userLanguage || window.navigator.language;
 	language=language.substring(0,2);
 
-	if (validLanguages.indexOf(language)==0)
+	if (!validLanguages.includes(language))
 		language="en";
 
 	return "js/resources/resource."+language+".js";
